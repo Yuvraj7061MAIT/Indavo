@@ -27,7 +27,11 @@ const Navbar = () => {
         <li 
           onClick={() => handleClick('men')} 
           className={activeMenu === 'men' ? 'underline active' : 'underline'}
+<<<<<<< HEAD
         ><Link to='/mens' style={{textDecoration: 'none'}}><span>Men</span></Link>
+=======
+        ><Link to='/men' style={{textDecoration: 'none'}}><span>Men</span></Link>
+>>>>>>> origin/main
         </li>
         <li 
           onClick={() => handleClick('women')} 
